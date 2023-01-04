@@ -4,7 +4,7 @@ import streamlit as st
 
 
 # loading the saved model
-loaded_model = pickle.load(open(r'C:\Users\abhil\Downloads\Streamlit\model_pickle_XGB','rb'))
+loaded_model = pickle.load(open(r'model_pickle_XGB','rb'))
 
 def Churn_prediction(input_data):
     
